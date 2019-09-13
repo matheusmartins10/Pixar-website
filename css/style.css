@@ -1,0 +1,101 @@
+body,h1,h2,h3,p,li{
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.menu-bg{
+    background: #fcfcfc;
+    color: #252525;
+   
+}
+.menu{
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.menu-logo img{
+    max-width: 200px;
+    margin-left: 80px;
+}
+.menu-nav ul{
+   display: flex;
+   flex-wrap: wrap;
+   padding: 10px;
+   margin-top: 55px;
+   margin-right: 80px;
+}
+.menu-nav li a{
+    color: #252525;
+    font-size: 1.115em;
+    text-transform: uppercase;
+}
+
+.menu-nav li a:hover{
+    color: rgba(0,0,0,.5);
+}
+.menu-nav li + li{
+    margin-left: 30px;
+}
+
+.main{
+    background: url('/img/backgroundMain.jpg')no-repeat center center;
+    background-size: cover;
+    padding: 350px 0;
+}
+
+.filmes-bg{
+    max-width: 960px;
+    margin: 150px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.item{
+    flex: 1 1 300px;
+    padding: 0 10px;
+}
+.item p{
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+.footer{
+    margin: 150px 0;
+    text-align: center;
+}
+.footer a{
+    color: #252525;
+    padding: 0 10px;
+}
+.footer a:hover{
+    color: rgba(0,0,0,.5);
+}
+.info{
+    margin-bottom: 20px;
+}
